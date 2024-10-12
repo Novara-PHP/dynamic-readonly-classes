@@ -1,0 +1,29 @@
+{
+    "name": "novara/dynamic-readonly-classes",
+    "description": "Create objects with constant values based on dynamically passed content.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Novara\\DynamicReadonlyClasses\\Tests\\": "tests/"
+        },
+        "files": ["autoload.php"]
+    },
+    "authors": [
+        {
+            "name": "RobertWesner",
+            "email": "robert@wesner.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "novara/base": "^v1.3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4",
+        "squizlabs/php_codesniffer": "^3.10.3"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit -c phpunit.xml"
+    }
+}
