@@ -1,8 +1,8 @@
 <?php
 
-use Novara\Base\Autoload\Loader;
+declare(strict_types=1);
 
-require_once __DIR__ . '/vendor/novara/base/src/Autoload/Loader.php';
+use Novara\Base\Autoload\Loader;
 
 Loader::register(new class {
     public const string PREFIX = 'Novara\\DynamicReadonlyClasses\\';
