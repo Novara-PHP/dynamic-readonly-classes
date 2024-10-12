@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="\Novara\DynamicReadonlyClasses" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="\Novara\DynamicReadonlyClasses\Tests" />
       <excludeFolder url="file://$MODULE_DIR$/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/novara/base" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
     </content>
     <content url="file://$MODULE_DIR$/vendor/novara" />
     <content url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
